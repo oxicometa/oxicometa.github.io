@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: #0a5cff;
+}
+
+header {
+  background: #111;
+  color: #fff;
+  padding: 15px 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.banner {
+  background: url("https://images.unsplash.com/photo-1581092160607-ee22621dd758") center/cover no-repeat;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  color: #fff;
+}
+
+.banner-texto h2 {
+  font-size: 42px;
+}
+
+.banner-texto p {
+  font-size: 20px;
+}
+
+.produtos {
+  padding: 60px;
+}
+
+.produto {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.produto img {
+  width: 280px;
+  border-radius: 6px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: #0a5cff;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 4px;
+}
+
+.institucional {
+  display: flex;
+  gap: 40px;
+  padding: 60px;
+  background: #f4f4f4;
+}
+
+.institucional img {
+  width: 420px;
+  border-radius: 6px;
+}
+
+.contato {
+  padding: 40px 60px;
+  background: #111;
+  color: #fff;
+}
+
+.contato a {
+  color: #0a5cff;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
